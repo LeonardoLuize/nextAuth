@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    Next Auth
+</h1>
+<p align="center">This application focus on saving the token and refresh token on front end with Next Js</p>
 
-## Getting Started
+<h4 align="center"> 
+	- Status: 🚧 -
+</h4>
 
-First, run the development server:
+### ☑️ Sobre
+---
+
+<p>
+  Made with Next js, this applications is a simple form, 
+  that when you got athenticated you store in the cookies
+  the token and refresh token, if the token become invalid 
+  the application redirects you for the auth page and if
+  you already has the tokens and they are valid you are 
+  redirect to the dashboard page.
+</p>
+
+### 🔌 Como rodar o projeto | Local
+---
+Caso queira rodar o projeto local, basta instalar as dependências e rodar o comando npm start, como mostrado abaixo:
 
 ```bash
-npm run dev
-# or
-yarn dev
+#in progress...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔋 Tecnologias
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- [React](https://pt-br.reactjs.org/)
+- [Next Js](https://nextjs.org/)
+<a target="_new" href="https://pt-br.reactjs.org">
+  <img src="https://img.shields.io/badge/ReactJs%20-%61DAFB33.svg?&style=for-the-badge&logo=react&logoColor=black&color=61DAFB"/>
+</a>
+<a target="_new" href="https://nextjs.org/">
+  <img src="https://img.shields.io/badge/Next Js%20-%61DAFB33.svg?&style=for-the-badge&logo=next.js&logoColor=white&color=020202"/>
+</a>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### 🎲 Feito por
+---
 
-## Learn More
+<a href="https://github.com/LeonardoLuize">
+ <img src="https://avatars.githubusercontent.com/u/74014082?v=4" width="100px;"/>
+ <br />
+ <sub><b>Leonardo Luize</b></sub></a> <a href="https://github.com/LeonardoLuize" >💻</a>
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feito por Leonardo Luize 😁
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<a target="_new" href="https://codepen.io/leonardoluize">
+  <img src="https://img.shields.io/badge/Codepen%20-%61DAFB33.svg?&style=for-the-badge&logo=codepen&logoColor=white&color=161B22"/>
+</a>
+<a target="_new" href="https://www.linkedin.com/in/leonardoluize/">
+  <img src="https://img.shields.io/badge/Linkedin%20-%61DAFB33.svg?&style=for-the-badge&logo=linkedin&logoColor=white&color=0A66C2"/>
+</a>
+<a target="_new" href="mailto:leonardo.luize2@gmail.com">
+  <img src="https://img.shields.io/badge/Email%20-%61DAFB33.svg?&style=for-the-badge&logo=gmail&logoColor=white&color=CF3A2F"/>
+</a>
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
