@@ -21,6 +21,8 @@ export function useCan({ permissions, roles }: UseCanParams) {
         if (!hasAllPermissions) {
             return false;
         }
+
+        return hasAllPermissions;
     }
 
     if (roles?.length > 0) {
@@ -31,5 +33,9 @@ export function useCan({ permissions, roles }: UseCanParams) {
         if (!hasAllRoles) {
             return false;
         }
+
+        return hasAllRoles;
     }
+
+    return false;
 }
